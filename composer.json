@@ -1,0 +1,20 @@
+{
+  "name": "kolraf/test-bundle",
+  "description": "",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "test"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "symfony/framework-bundle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kolraf\\TestBundle\\": ""
+    }
+  }
+}
