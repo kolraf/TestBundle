@@ -6,9 +6,9 @@ use Kolraf\TestBundle\DependencyInjection\KolrafTestExtension;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class TestBundle extends Bundle
+class KolrafTestBundle extends Bundle
 {
-    protected function createContainerExtension(): ?ExtensionInterface
+    public function getContainerExtension(): ?ExtensionInterface
     {
         return new KolrafTestExtension();
     }
